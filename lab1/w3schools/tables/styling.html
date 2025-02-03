@@ -1,0 +1,24 @@
+<!-- Чтобы оформить каждый второй элемент строки таблицы,
+ используйте селектор следующим образом::nth-child(even) -->
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  <!-- Задайте элементы данных таблицы для следующим образом::nth-child(even) -->
+  td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+<!-- Используйте цвет для указания прозрачности цвета:rgba() -->
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  <!-- Добавьте свойство ко всем элементам, чтобы получить горизонтальные разделители:border-bottomtr -->
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  <!-- Используйте селектор включено, чтобы выделить строки таблицы на мыши над::hovertr -->
+  tr:hover {background-color: #D6EEEE;}
+  

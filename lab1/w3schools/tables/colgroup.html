@@ -1,0 +1,49 @@
+<!-- Если вы хотите стилизовать первые два столбца таблицы, используйте элементы and. <colgroup><col> -->
+<table>
+    <colgroup>
+      <col span="2" style="background-color: #D6EEEE">
+    </colgroup>
+    <tr>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+  ...
+  <!-- Если вы хотите стилизовать несколько столбцов
+   с разными стилями, используйте более Один элемент внутри :<col><colgroup> -->
+  <table>
+    <colgroup>
+      <col span="2" style="background-color: #D6EEEE">
+      <col span="3" style="background-color: pink">
+    </colgroup>
+    <tr>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+  ...
+  <!-- Если хочешь Чтобы оформить столбцы в середине таблицы,
+   вставьте "пустой" элемент (без styles) для столбцов до: <col> -->
+  <table>
+    <colgroup>
+      <col span="3">
+      <col span="2" style="background-color: pink">
+    </colgroup>
+    <tr>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+  ...
+  <!-- Вы можете скрыть столбцы с помощью свойства:visibility: collapse -->
+  <table>
+    <colgroup>
+      <col span="2">
+      <col span="3" style="visibility: collapse">
+    </colgroup>
+    <tr>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+  ...

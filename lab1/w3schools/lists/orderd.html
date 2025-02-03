@@ -1,0 +1,31 @@
+
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+<ol type="1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <!-- По умолчанию упорядоченный список начинает отсчет с 1. 
+  Если вы хотите начать отсчет с указанного числа, вы можете использовать атрибут:start -->
+  <ol start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <!-- Списки могут быть вложенными (список внутри списка): -->
+  <ol>
+    <li>Coffee</li>
+    <li>Tea
+      <ol>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ol>
+    </li>
+    <li>Milk</li>
+  </ol>
