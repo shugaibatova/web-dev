@@ -1,0 +1,42 @@
+ <!-- 1 variant
+if (n < 0)
+  alert(`Power ${n} is not supported`);
+2-variant
+if (n < 0) alert(`Power ${n} is not supported`); 
+
+1-variant
+// function declarations
+function createElement() {
+  ...
+}
+
+function setHandler(elem) {
+  ...
+}
+
+function walkAround() {
+  ...
+}
+
+// the code which uses them
+let elem = createElement();
+setHandler(elem);
+walkAround();
+2-variant
+// the code which uses the functions
+let elem = createElement();
+setHandler(elem);
+walkAround();
+
+// --- helper functions ---
+function createElement() {
+  ...
+}
+
+function setHandler(elem) {
+  ...
+}
+
+function walkAround() {
+  ...
+} -->
