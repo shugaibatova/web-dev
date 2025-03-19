@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:pink;
+    font-family:cursive;
+    font-size:150px;
+}
+p{
+    text-align:center;
+    font-size:50px;
+    color:white;
+    padding:50px 50px;
+    background:#691a1a;
+    border-radius:10px;
+}
+a{
+    float:left;
+    margin-left:750px;
+    margin-top: 2px;
+    padding: 15px 15px;
+    background: pink;
+    color: white;
+    border-radius: 50px;
+}

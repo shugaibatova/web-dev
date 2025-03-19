@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    font-size:100px;
+    padding:10px 10px;
+    background:pink;
+    border-radius:5px;
+    color:white;
+}
+#a{
+    text-align:center;
+    font-size:70px;
+    font-family:monospace;
+    color:pink;
+}
