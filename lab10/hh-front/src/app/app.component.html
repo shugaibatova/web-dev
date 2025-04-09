@@ -1,0 +1,9 @@
+
+<h1>Companies</h1>
+<ul>
+  <li *ngFor="let company of companies" (click)="onSelectCompany(company.id)">
+    {{ company.name }}
+  </li>
+</ul>
+
+<!-- <app-vacancy-list [companyId]="selectedCompanyId"></app-vacancy-list> -->
