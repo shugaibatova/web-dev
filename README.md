@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Project: Diary
 Mood tracker:
 1. Mood selection + description.
@@ -82,3 +83,6 @@ Khusainova Karina 23b031477
 Asyljanova Inara
 ----------------------------------------------------
 Time: Wednesday 15-17:00 -->
+=======
+
+>>>>>>> 169b1a633b7d03088bf479769df6309df9ddab55
